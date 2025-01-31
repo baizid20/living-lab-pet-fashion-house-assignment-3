@@ -1,0 +1,23 @@
+.text-animation{
+    animation-name: cat;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes cat {
+    0%{
+        font-size: 50px;
+        color: black;
+        background-color:bisque;
+        padding:40px;
+    }
+    
+    90%{
+        color:orange;
+    }
+    
+    100%{
+        color:black;
+    }
+}
