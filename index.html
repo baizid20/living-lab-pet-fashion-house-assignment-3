@@ -35,16 +35,53 @@
 
 
 <body>
-    <header>
-         <!-- navbar section start here -->
-     <nav class="bg-[rgba(255,249,244,1)]">
-        <div class="flex items center justify-between">
-            <!-- container div -->
-     <div>
-            <!-- navbar logo  -->
-             <img src="c1-assets/logo-header.png" alt="">
-     </div>
-     <div>
+   <header>
+   <nav class="sora-font border-[rgba(17,17,17,1)] border-b lg:border-0">
+    <div class="navbar bg-red-500">
+
+        <div class="navbar-start flex gap-x-3 items-center">
+            <div>
+                <!-- navbar logo  -->
+                 <img src="c1-assets/logo-header.png" alt="">
+         </div>
+         <div >
+            <h3 class=" sora-font font-normal text-3xl  hidden lg:block">Browse<span class="text-orange-500">4</span>Pets</a>
+         </div>
+        </div>
+        <div class="navbar-center flex hidden lg:block">
+          <ul class="flex gap-x-4">
+            <li class="text-lg font-normal"><a>Find a pet</a></li>
+            <li  class="text-lg font-normal"><a>Breeds</a></li>
+            <li  class="text-lg font-normal"><a>Contact us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end ">
+          <div class="flex gap-x-3 items-center ">
+            <!-- navbar end lg device btn and icon -->
+            <div class=" hidden lg:block" >
+                <!-- icon 1 bell  -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                  </svg>
+                  
+            </div>
+            <div class=" hidden lg:block">
+                <!-- icon 2 search -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                  </svg>
+                  
+            </div>
+            <div class=" hidden lg:block">
+                <!-- btn 1 login -->
+                 <button class=" border border-yellow-500 rounded-md px-5 py-2 sora-font font-normal">Login</button>
+            </div>
+            <div class=" hidden lg:block">
+                <!-- btn 2 Register-->
+                <button class="bg-yellow-500 px-5 py-2 sora-font font-normal rounded-md">Register</button>
+            </div>
+          </div>
+          <div class="block lg:hidden">
             <!-- navbar dropdown icon  -->
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -52,12 +89,12 @@
               
      </div>
         </div>
-        
+       
+      </div>
+   </nav>
 
-     </nav>
-
-         <!-- navbar section ended -->
-    </header>
+   </header>
+    
     <main>
         <section>
             <!-- Banner section start here -->
