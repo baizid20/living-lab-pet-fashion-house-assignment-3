@@ -1,6 +1,6 @@
 .text-animation{
     animation-name: cat;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     
 }
@@ -20,6 +20,10 @@
     100%{
         color:black;
     }
+}
+
+.animated-bg{
+    background-color:bisque;
 }
 
 .first-gradient{
